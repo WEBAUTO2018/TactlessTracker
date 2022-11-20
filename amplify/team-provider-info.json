@@ -1,0 +1,26 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tactlesstracker-staging-12417-authRole",
+      "UnauthRoleArn": "arn:aws:iam::535262957613:role/amplify-tactlesstracker-staging-12417-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::535262957613:role/amplify-tactlesstracker-staging-12417-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-tactlesstracker-staging-12417-deployment",
+      "UnauthRoleName": "amplify-tactlesstracker-staging-12417-unauthRole",
+      "StackName": "amplify-tactlesstracker-staging-12417",
+      "StackId": "arn:aws:cloudformation:us-east-1:535262957613:stack/amplify-tactlesstracker-staging-12417/0d5aac40-6872-11ed-be23-0e4d91e8e221",
+      "AmplifyAppId": "d3cjutpn3820r5"
+    },
+    "categories": {
+      "auth": {
+        "TactlessTracker": {}
+      },
+      "function": {
+        "signUp": {
+          "deploymentBucketName": "amplify-tactlesstracker-staging-12417-deployment",
+          "s3Key": "amplify-builds/signUp-6547626f436637596837-build.zip"
+        }
+      }
+    }
+  }
+}
