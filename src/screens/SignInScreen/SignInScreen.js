@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {View, Image, StyleSheet, useWindowDimensions, ScrollView, Alert} from 'react-native';
-import Logo from '../../../assets/images/Dream_TradingCard_3.png';
+import Logo from '../../../assets/images/TactlessTrackerLogo.png';
 import CustomInput from '../../components/CustomInput';
 import CustomButton from '../../components/CustomButton';
 import {useNavigation} from '@react-navigation/native';
@@ -59,7 +59,7 @@ const SignInScreen = () => {
             <View style={styles.root}>
                 <Image 
                     source={Logo} 
-                    style={[styles.logo, {height: height * 0.2}]} 
+                    style={[styles.logo, {height: 200}]} 
                     resizeMode="contain"
                 />
 

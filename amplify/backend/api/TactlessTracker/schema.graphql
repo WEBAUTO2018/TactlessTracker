@@ -1,0 +1,9 @@
+type Workouts @model {
+  id: ID!
+  WorkoutName: String
+  Reps: Int
+  Date: AWSDate
+  Length: Float
+  Weight: String
+}
+ 

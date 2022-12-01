@@ -10,6 +10,7 @@ import React from 'react';
 import { SafeAreaView, StyleSheet, Text } from 'react-native';
 import Navigation from './src/navigation';
 import {Amplify} from 'aws-amplify';
+import {DataStore} from '@aws-amplify/datastore';
 import config from './src/aws-exports';
 
 Amplify.configure(config);
